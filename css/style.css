@@ -1,0 +1,123 @@
+:root {
+  --mainColor: #032a3b;
+  --primary: #808080;
+  --acsenColor: #ffc107;
+}
+body {
+  background-color: var(--mainColor);
+  min-height: 900px;
+  font-family: "ubuntu", sans-serif;
+}
+section h1 {
+  color: #fff;
+  font-size: 2.5rem;
+}
+/* navbar style */
+.nav-link.active {
+  color: var(--acsenColor) !important;
+  font-weight: 800;
+}
+/* end navbar */
+.nav-dark {
+  background-color: var(--primary);
+  margin-top: -5%;
+  z-index: 100;
+  transition: 0.8s;
+}
+
+/* hero awal */
+.color-acsen {
+  color: var(--acsenColor);
+}
+#hero {
+  color: #fff;
+  min-height: 100vh;
+  padding-top: 75px;
+}
+#hero h1 {
+  font-size: 4rem;
+}
+#hero h2 {
+  font-weight: 250;
+}
+#hero p {
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+/* tombol button */
+.btn-custom1 {
+  background-color: var(--acsenColor);
+  color: #fff;
+  text-align: center;
+  min-width: 100px;
+  height: 45px;
+  font-weight: 700;
+}
+.btn-custom1 :hover {
+  box-shadow: 0 0 5px rgba(225, 166, 0, 0.8);
+}
+
+/* social-icon */
+.sosial-icon svg {
+  margin-right: 0.7em;
+  margin-bottom: 10px;
+}
+/* hero akhir */
+/* About awal */
+hr {
+  width: 35%;
+  height: 5px;
+  margin: 0 auto;
+  opacity: 100%;
+}
+#about {
+  min-height: 300px;
+  width: 100%;
+  background-color: #808080;
+  color: #fff;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin-bottom: 80px;
+}
+
+/* About akhir */
+/* skill awal */
+#skill {
+  min-height: 600px;
+  width: 100%;
+  color: #fff;
+}
+#skill img {
+  width: 12%;
+  margin: 10px;
+}
+#skill .img-1 {
+  width: 150px;
+}
+/* skill akhir */
+/* sertifikat awal */
+#sertifikat {
+  margin-top: 50px;
+  padding: 50px;
+  padding-bottom: 50px;
+  background-color: var(--primary);
+}
+#sertifikat img {
+  width: 45%;
+  padding: 10px;
+}
+#sertifikat h1 {
+  margin-top: 0;
+}
+/* sertifikat akhir */
+
+/* gallery portofolio awal */
+#portofolio .container {
+  padding: 80px 10px;
+}
+/* galllery portofolio akhir */
+/* sosial icon footer */
+.sosial-icon-footer svg {
+  margin-right: 0.7em;
+  margin-bottom: 10px;
+}
